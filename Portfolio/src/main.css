@@ -81,7 +81,7 @@ a:link {
   width: 100%;
   text-align: center;
   background-color: #1a1a1b;
-  box-shadow: 1px 0.1px 15px #7c9299;
+  box-shadow: 1px 0px 4px rgb(80, 39, 134);
   height: 60px;
 }
 
@@ -599,11 +599,11 @@ p {
 }
 
 [data-anime="top"] {
-  transform: translate3d(0, -200px, 0);
+  transform: translate3d(0, -260px, 0);
 }
 
 [data-anime="bottom"] {
-  transform: translate3d(0, 100px, 0);
+  transform: translate3d(0, 300px, 0);
 }
 
 [data-anime].animate {
