@@ -81,7 +81,7 @@ a:link {
   width: 100%;
   text-align: center;
   background-color: #1a1a1b;
-  box-shadow: 1px 0px 4px rgb(80, 39, 134);
+  box-shadow: 1px 0px 4px rgb(39, 112, 134);
   height: 60px;
 }
 
@@ -462,7 +462,7 @@ main p {
   display: flex;
   flex-direction: column;
   width: 270px;
-  height: 400px;
+  height: 350px;
   align-items: center;
   font-size: 13px;
   margin-bottom: 20px;
@@ -526,10 +526,15 @@ main p {
   margin-top: 30px;
 }
 
+#scala {
+  overflow: hidden;
+  cursor: pointer;
+}
+
 #Calcula {
   max-width: 270px;
-  max-height: 480px;
-  overflow: hidden;
+  max-height: 500px;
+  transition: 0.2s all ease-in-out;
 }
 
 .desc {
@@ -656,6 +661,10 @@ p {
 }
 
 @media (min-width: 728px) {
+  #Calcula:hover {
+    transform: scale(1.1);    
+  }
+  
   #card1:hover {
     transform: translateY(-15px);
     transition: 0.2s;
