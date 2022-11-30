@@ -462,7 +462,7 @@ main p {
   display: flex;
   flex-direction: column;
   width: 270px;
-  height: 350px;
+  height: 300px;
   align-items: center;
   font-size: 13px;
   margin-bottom: 20px;
